@@ -5,7 +5,7 @@ class Home extends CI_Controller {
 	//Estas lineas de abajo son para que pueda jalar el helper o funciones sueltas 
 	public function __CONSTRUCT(){
 		parent::__CONSTRUCT();
-		$this->load->helper('url');
+		
 	}
 
 	public function index()
