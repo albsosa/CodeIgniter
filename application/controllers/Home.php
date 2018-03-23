@@ -10,6 +10,7 @@ class Home extends CI_Controller {
 
 	public function index()
 	{
+		var_dump($this->proyecto->realizaAlgo());
 		$this->load->view('header');
 		$this->load->view('home/index');
 		$this->load->view('footer');
